@@ -22,6 +22,7 @@ public class AlertAction: NSObject {
         self.init()
         self.attributedTitle = attributedTitle
         self.style = style
+        self.alertController = ac
         self.handler = handler
     }
 
